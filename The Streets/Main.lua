@@ -41,7 +41,7 @@ local request = request or syn and syn.request or http and http.request
 local get_custom_asset = getcustomasset or syn and getsynasset
 local queue_on_teleport = queue_on_teleport or syn and syn.queue_on_teleport
 local get_script_version = function()
-    local Response = request({Url = "https://api.github.com/repos/elde-n/roblox-the-streets-pony-script/commits"})
+    local Response = request({Url = "https://api.github.com/repos/peachyweachy/roblox-the-streets-pony-script/commits"})
     if Response.StatusCode == 200 then
         return HttpService:JSONDecode(Response.Body)[1].sha
     end
