@@ -5,7 +5,7 @@ local request = request or syn and syn.request
 
 
 local FilePath = string.gsub(ScriptName, "%s", "%%20")
-local RepositoryPath = "https://raw.githubusercontent.com/elde-n/roblox-the-streets-pony-script/main/" .. FilePath .. "/"
+local RepositoryPath = "https://raw.githubusercontent.com/peachyweachy/roblox-the-streets-pony-script/main/" .. FilePath .. "/"
 
 
 local Cached = {}
